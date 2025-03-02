@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Table() {
   return (
-    <div>Table WIP</div>
+    <div>Table Yipee</div>
   )
 }
