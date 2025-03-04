@@ -19,7 +19,7 @@ export default function HomePage() {
     </Link>
 
     <div>
-      <h1 className="font-bold">Welcome to Airtable 2 Test</h1>
+      <h1 className="font-bold">Welcome to Airtable 2 Test3</h1>
     </div>
 </div>
   )
