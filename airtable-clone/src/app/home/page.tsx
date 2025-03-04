@@ -1,3 +1,4 @@
+import Link from "next/link";
 import NavBar from "../_components/navbar";
 
 import React from 'react'
@@ -11,11 +12,11 @@ export default function HomePage() {
       </header>
     </div>
 
-    <a href="/table">
+    <Link href="/table">
     <div className="rounded-[5] bg-blue-900 text-white mt-2 p-1">
       <h1 className="font-bold">Go to Untitled Base</h1>
     </div>
-    </a>
+    </Link>
 
     <div>
       <h1 className="font-bold">Welcome to Airtable 2 Test</h1>

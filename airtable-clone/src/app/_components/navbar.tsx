@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from "next/image";
 import { useSession, signOut, signIn, SessionProvider } from 'next-auth/react';
+import Link from 'next/link';
 
 export default function navbar() {
   return (
@@ -14,14 +15,15 @@ export default function navbar() {
             height={20}
             alt="Hamburger button"
           />
-          <a href="/">
+          <Link
+          href="/">
            <Image 
              src="/images/airtable-logo.png"
              width={100}
               height={10}
              alt="Airtable Logo"
            />
-         </a>
+           </Link>
         </div>
     </div>
 

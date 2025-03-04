@@ -1,20 +1,22 @@
 import React from 'react'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function BaseNav() {
   return (
     <div>
     <nav className='flex items-center px-4 py-4'>
         <div className='flex items-center'>
-            <a href="/">
-            <Image
-            src='/images/white-airtable.png'
-            width={20}
-            height={20}
-            alt="Airtable logo"
+            <Link 
+            href="/">
+              <Image
+              src='/images/white-airtable.png'
+              width={20}
+              height={20}
+              alt="Airtable logo"
             />
-            </a>
+             </Link>
         </div>
 
         <div className='flex items-center' role='button'>
