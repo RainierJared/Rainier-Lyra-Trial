@@ -9,10 +9,9 @@ const LogIn = () => {
         <BaseNav />
       </header>
 
-      <div className='flex flex-auto w-full h-full bg-black/20'>
+      <div className='flex flex-auto w-full h-full'>
         <Table />
       </div>
-
     </div>
       
   )
