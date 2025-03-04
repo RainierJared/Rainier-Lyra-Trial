@@ -16,7 +16,7 @@ export const HomePage = () => {
       </a>
 
       <div>
-        <h1 className="font-bold">Welcome to Airtable 2</h1>
+        <h1 className="font-bold">Welcome to Airtable 2 Test</h1>
       </div>
   </div>
   );
