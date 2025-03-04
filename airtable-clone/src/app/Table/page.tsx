@@ -2,7 +2,7 @@ import React from 'react'
 import BaseNav from '~/app/_components/BaseNav';
 import Table from '~/app/_components/Table';
 
-const LogIn = () => {
+const table = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
       <header className='flex-none w-full bg-[#8c3f78]'>
@@ -17,4 +17,4 @@ const LogIn = () => {
   )
 }
 
-export default LogIn;
+export default table;
