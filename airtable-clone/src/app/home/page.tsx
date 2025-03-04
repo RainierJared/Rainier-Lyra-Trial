@@ -12,7 +12,7 @@ export default function HomePage() {
       </header>
     </div>
 
-    <Link href="/Table">
+    <Link href="/table">
     <div className="rounded-[5] bg-blue-900 text-white mt-2 p-1">
       <h1 className="font-bold">Go to Untitled Base</h1>
     </div>
